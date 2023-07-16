@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Document</title>
+	</head>
+	<body>
+		<input type="checkbox" id="nav-checkbox" />
+		<label class="nav-check" for="nav-checkbox">
+			<div class="mobile-nav-btn">
+				<img src="./graphics/icon_mobile_btn.svg" alt="" />
+			</div>
+		</label>
+		<header>
+			<nav>
+				<h3>
+					<span>☏</span>
+					(972) 737-3262
+				</h3>
+				<div class="nav-logo-container">
+					<img
+						onclick="scrollToTop()"
+						class="nav-logo"
+						src="./graphics/logo_HCHI.svg"
+						alt=""
+					/>
+				</div>
+			</nav>
+
+			<nav>
+				<div class="nav-btn-container">
+					<a href="#about">About</a>
+					<a href="#projects">Previous Projects</a>
+					<a href="#contact">Contact Us</a>
+				</div>
+			</nav>
+		</header>
+		<div class="nav-btn-container-mob">
+			<a href="#about">About</a>
+			<a href="#projects">Previous Projects</a>
+			<a href="#contact">Contact Us</a>
+		</div>
+		<section class="hero">
+			<a href="#contact">Get A Quote</a>
+			<img class="hero-logo" src="./graphics/logo_HCHI_text.svg" alt="" />
+			<img class="hero-bg" src="./photos/hchi_hero_bg.jpg" alt="" />
+		</section>
+		<section class="about" id="about">
+			<h2>About Us</h2>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, possimus
+				aut nam quasi fugit voluptate iste temporibus explicabo eligendi
+				laudantium.
+			</p>
+		</section>
+		<section class="projects" id="projects">
+			<h2>Previous Projects</h2>
+
+			<div class="section-wrapper social-slider">
+				<div class="slider-container" id="sliderYoutube">
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_1.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_2.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_3.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_4.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_5.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_6.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_7.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_8.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_9.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_10.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_11.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_12.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_13.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_14.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_15.jpg"
+							alt="photo"
+						/>
+					</div>
+					<div class="slide">
+						<img
+							class="social-video-thumb"
+							src="./photos/photo_16.jpg"
+							alt="photo"
+						/>
+					</div>
+				</div>
+				<div class="social-slider-bg"></div>
+				<div class="social-slider-shadowbox"></div>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<form method="POST" action="form.php" id="contact-form">
+				<h2>Contact us</h2>
+				<div>
+					<label>Name:</label>
+					<input class="email-input" name="name" type="text" />
+				</div>
+
+				<div>
+					<label>Email Address:</label>
+					<input
+						class="email-input"
+						style="cursor: pointer"
+						name="email"
+						type="text"
+					/>
+				</div>
+				<div>
+					<label>Message:</label>
+					<textarea class="email-input" name="message"></textarea>
+				</div>
+
+				<input class="email-send" type="submit" value="Send" />
+			</form>
+		</section>
+		<footer>
+			<div class="footer-nav-container">
+				<nav class="footer-nav">
+					<div>
+						<a class="footer-btn" href="#about">About us</a>
+						<a class="footer-btn" href="#projects">Previous Projects</a>
+						<a class="footer-btn" href="#contact">Contact Us</a>
+					</div>
+				</nav>
+				<nav class="footer-nav">
+					<img onclick="scrollToTop()" src="./graphics/logo_HCHI.svg" alt="" />
+				</nav>
+				<nav class="footer-nav">
+					<div>
+						<a class="footer-btn" href="">Privacy Policy</a>
+					</div>
+				</nav>
+			</div>
+
+			<p>© 2023 Hill Country Home Improvements</p>
+		</footer>
+	</body>
+	<script src="./main.js?v=1"></script>
+</html>

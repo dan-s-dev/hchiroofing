@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+	<rect x="64.29" y="58.47" width="907.06" height="907.06" rx="13.67" ry="13.67" style="fill:#00daff;"/>
+
+	<filter id="drop-shadow">
+		<feOffset dx="0" dy="0" in="SourceGraphic" result="offOut"></feOffset>
+		<feColorMatrix in="offOut" result="matrixOut" type="matrix" values="0.3 0 0 0 0 0 0.3 0 0 0 0 0 0.3 0 0 0 0 0 1 0">
+		</feColorMatrix>
+		<feGaussianBlur in="matrixOut" result="blurOut" stdDeviation="10"></feGaussianBlur>
+		<feBlend in="SourceGraphic" in2="blurOut" mode="normal"></feBlend>
+	</filter>
+
+
+	<g id="house" filter="url(#drop-shadow)">
+		<polygon points="929.7 366.27 929.7 590.07 105.93 590.07 929.7 366.27" style="fill:#f2f7e5;"/>
+		<polygon points="929.7 246.98 929.7 331.43 63.66 566.71 34.58 489.99 929.7 246.98" style="fill:#56556d;"/>
+		<polygon points="929.7 331.44 929.7 366.27 105.93 590.07 105.93 555.23 929.7 331.44" style="fill:#c3c9b3;"/>
+		<path d="m654.1,290.19l-503.57,136.79-119.24,32.4-11.77,3.19c59.54-152.36,207.76-260.27,381.21-260.27,50.91,0,99.62,9.29,144.57,26.28,8.33,3.14,16.54,6.56,24.61,10.24,30.21,13.73,58.45,31.02,84.19,51.36Z" style="fill:#abf802;"/>
+		<path d="m929.7,215.31l-244.64,66.47c-30.04-26.02-63.06-47.5-98.28-64.16,42.4-47.32,103.99-77.09,172.51-77.09s128.09,28.8,170.4,74.78Z" style="fill:#abf802;"/>
+		<path d="m277.47,764.43h-84.07v91.34h-54.04v-221.86h54.04v86.91h84.07v-86.91h54.04v221.86h-54.04v-91.34Z" style="fill:#f2f7e5;"/>
+		<path d="m472.78,631.37c52.78,0,92.6,29.71,105.24,77.75h-59.42c-9.16-18.96-25.92-28.44-46.46-28.44-33.18,0-55.94,24.65-55.94,63.84s22.75,63.84,55.94,63.84c20.54,0,37.29-9.48,46.46-28.44h59.42c-12.64,48.04-52.46,77.43-105.24,77.43-65.42,0-111.56-46.46-111.56-112.83s46.14-113.14,111.56-113.14Z" style="fill:#f2f7e5;"/>
+		<path d="m749.31,764.43h-84.07v91.34h-54.04v-221.86h54.04v86.91h84.07v-86.91h54.04v221.86h-54.04v-91.34Z" style="fill:#f2f7e5;"/>
+		<path d="m842.22,633.9h54.04v221.86h-54.04v-221.86Z" style="fill:#f2f7e5;"/>
+	</g>
+</svg>
