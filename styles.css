@@ -325,6 +325,7 @@ footer p {
 		position: fixed;
 		width: 100vw;
 		height: 100vh;
+		height: 100dvh;
 		background-color: var(--col-blue-50);
 		transform: translateX(-100%);
 		backdrop-filter: blur(20px);
@@ -453,6 +454,7 @@ section {
 	position: relative;
 	overflow-y: hidden;
 	height: 100vh;
+	height: 100dvh;
 	padding-top: 6rem;
 	background-image: linear-gradient(
 		to top,
@@ -475,10 +477,12 @@ section {
 	color: var(--col-darkgrey);
 	background-color: var(--col-green);
 	transform: scale(1) translateY(24vh);
+	transform: scale(1) translateY(24dvh);
 }
 
 .hero a:hover {
 	transform: scale(1.05) translateY(23vh);
+	transform: scale(1.05) translateY(23dh);
 	cursor: pointer;
 
 	color: var(--col-black);
@@ -533,6 +537,7 @@ section {
 	z-index: 0;
 	position: relative;
 	height: 100vh;
+	height: 100dvh;
 	padding: 0 25%;
 	background-color: var(--col-limestone);
 	filter: drop-shadow(0 0 2rem var(--col-darkpurple));
@@ -563,6 +568,7 @@ section {
 
 	width: 100%;
 	height: 100vh;
+	height: 100dvh;
 	background-color: var(--col-limestone);
 }
 
