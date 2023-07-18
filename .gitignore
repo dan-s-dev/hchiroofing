@@ -1,2 +1,4 @@
 vendor/
 /send-email.php
+composer.json
+composer.lock
