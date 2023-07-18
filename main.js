@@ -3,7 +3,14 @@ function scrollToTop() {
 	window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function closeNav() {
 
+  const navCheckbox = document.getElementById("nav-checkbox")
+
+  navCheckbox.checked = false;
+
+
+}
 
 
 

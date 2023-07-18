@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="shortcut icon"
+			href="./graphics/logo_HCHI_text.svg"
+			type="image/x-icon"
+		/>
+		<title>Hill Country Home Improvements</title>
+	</head>
+
+	<body>
+		<input type="checkbox" id="nav-checkbox" />
+		<label class="nav-check" for="nav-checkbox">
+			<div class="mobile-nav-btn">
+				<img src="./graphics/icon_mobile_btn.svg" alt="" />
+			</div>
+		</label>
+		<header>
+			<nav>
+				<h3>
+					<span>☏</span>
+					(972) 737-3262
+				</h3>
+				<div class="nav-logo-container">
+					<img
+						onclick="location.href='index.html';"
+						class="nav-logo"
+						src="./graphics/logo_HCHI.svg"
+						alt=""
+					/>
+				</div>
+			</nav>
+
+			<nav>
+				<div class="nav-btn-container">
+					<a href="#about">About</a>
+					<a href="#projects">Previous Projects</a>
+					<a href="#contact">Contact Us</a>
+				</div>
+			</nav>
+		</header>
+		<div class="nav-btn-container-mob">
+			<a href="#about">About</a>
+			<a href="#projects">Previous Projects</a>
+			<a href="#contact">Contact Us</a>
+		</div>
+		<section class="hero">
+			<h2
+				style="
+					z-index: 999;
+					color: white;
+					background-color: rgba(0, 0, 0, 0.5);
+					padding: 1rem 2rem;
+					text-align: center;
+				"
+			>
+				Your Message Has Been Sent.
+			</h2>
+			<a href="./index.html">Back To Homepage</a>
+			<img class="hero-logo" src="./graphics/logo_HCHI_text.svg" alt="" />
+			<img class="hero-bg" src="./photos/hchi_hero_bg.jpg" alt="" />
+		</section>
+
+		<footer>
+			<div class="footer-nav-container">
+				<nav class="footer-nav">
+					<div>
+						<a class="footer-btn" href="#about">About us</a>
+						<a class="footer-btn" href="#projects">Previous Projects</a>
+						<a class="footer-btn" href="#contact">Contact Us</a>
+					</div>
+				</nav>
+				<nav class="footer-nav">
+					<img onclick="scrollToTop()" src="./graphics/logo_HCHI.svg" alt="" />
+				</nav>
+				<nav class="footer-nav">
+					<div>
+						<a class="footer-btn" href="./privacy/privacy.html"
+							>Privacy Policy</a
+						>
+					</div>
+				</nav>
+			</div>
+
+			<p>© 2023 Hill Country Home Improvements</p>
+		</footer>
+	</body>
+	<script src="./main.js?v=1"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
+</html>
