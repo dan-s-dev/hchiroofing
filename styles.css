@@ -755,8 +755,8 @@ section {
 .contact {
 	z-index: 99;
 	position: relative;
-	height: 90vh;
-	height: 90lvh;
+	height: 110vh;
+	height: 110lvh;
 	background-color: var(--col-limestone);
 	background-image: url(./photos/photo_1.jpg);
 	background-repeat: no-repeat;
@@ -764,7 +764,7 @@ section {
 }
 
 #contact {
-	scroll-margin: 5rem;
+	scroll-margin: 0rem;
 }
 
 .contact-title {
@@ -772,21 +772,22 @@ section {
 	flex-direction: column;
 	align-items: center;
 	width: 44rem;
-	padding: 1rem 0;
-	margin: 1rem 0;
+	padding: 0.75rem 0;
+	margin: 0rem 0 -2rem 0;
 	border-radius: 1rem;
 	background-color: var(--col-blue-50);
 	backdrop-filter: blur(25px);
+	transform: scale(0.9);
 }
 
 .contact-title h2 {
-	font-size: 3rem;
+	font-size: 2.25rem;
 	margin: 0;
 	color: white;
 }
 
 .contact-title p {
-	font-size: 1.5rem;
+	font-size: 1.15rem;
 	margin: 0;
 	color: white;
 	font-family: "Poppins";
@@ -804,6 +805,7 @@ form {
 	border-radius: 1rem;
 	background-color: var(--col-blue-50);
 	backdrop-filter: blur(25px);
+	transform: scale(0.9);
 }
 
 form h2 {
@@ -855,7 +857,13 @@ textarea.email-input {
 }
 
 @media (max-aspect-ratio: 4/5.5) {
+	#contact {
+		scroll-margin: 3rem;
+	}
+
 	.contact {
+		height: 100vh;
+		height: 100lvh;
 	}
 
 	.contact p {
@@ -868,9 +876,9 @@ textarea.email-input {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		width: 90%;
+		width: 93%;
 		padding: 0.5rem 0;
-		margin: 1rem 0;
+		margin: 0rem 0 -1rem 0;
 		border-radius: 1rem;
 		background-color: var(--col-blue-50);
 		backdrop-filter: blur(25px);
